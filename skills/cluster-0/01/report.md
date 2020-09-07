@@ -1,20 +1,20 @@
-#  Skill Name
+#  Skill 01 Setup Editors and IDEs
 
-Author: FirstName LastName
+Author: Ritam Das
 
-Date: YYYY-MM-DD
+Date: 2020-09-07
 -----
 
 ## Summary
-
+Completing skill 01 involved installing Visual Studio Code as my IDE of choice.
 
 ## Sketches and Photos
-
+n/a
 
 ## Modules, Tools, Source Used Including Attribution
-
+n/a
 
 ## Supporting Artifacts
-
+n/a
 
 -----
