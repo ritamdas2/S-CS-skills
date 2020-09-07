@@ -19,6 +19,8 @@ I installed USB drivers from Adafruit, followed Espressif Getting Started Guide,
 
 
 ## Supporting Artifacts
+Demonstration:
 
+[![](http://img.youtube.com/vi/wV2sc4YSy44/0.jpg)](http://www.youtube.com/watch?v=wV2sc4YSy44 "")
 
 -----
