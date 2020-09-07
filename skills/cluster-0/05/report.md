@@ -6,7 +6,7 @@ Date: 2020-09-07
 -----
 
 ## Summary
-I installed USB drivers from Adafruit, followed Espressif Getting Started Guide, validated the toolchain works by compiling and flashing blink and hellow_world on the ESP32 board.
+I installed USB drivers from Adafruit, followed Espressif Getting Started Guide, validated the toolchain works by compiling and flashing blink and hello_world on the ESP32 board.
 
 ## Sketches and Photos
 <img width="972" alt="Screen Shot 2020-09-07 at 5 46 59 PM" src="https://user-images.githubusercontent.com/37518854/92417861-82013f00-f132-11ea-8ee7-7deb9fb124cf.png">
