@@ -1,12 +1,5 @@
-/*
-  - Barebones example using one timer as an interval alarm
-  - Code prints every 1 second
-  - Adapted and simplified from ESP-IDF timer example
-  - See examples for more timer functionality
-
-  Emily Lam, September 2019
-
-*/
+//Author: Ritam Das
+//Skill 11 Stopwatch
 
 #include <stdio.h>
 #include "esp_types.h"
