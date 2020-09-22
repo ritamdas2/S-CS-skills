@@ -11,11 +11,11 @@ Completed following tasks:
 
 -Wired up 4 LEDs without cooking anything
 
-  Used 3.3V from the ESP32 and plugged ESP32 into an USB power source
+    Used 3.3V from the ESP32 and plugged ESP32 into an USB power source
   
-  the ESP32 board will source up to ~250mA of the total of 500mA at 3.3V)
+    the ESP32 board will source up to ~250mA of the total of 500mA at 3.3V)
   
-  Used resistors so that I <= max current mA (I=V/R), V is your source voltage (use 330 ohm)
+    Used resistors so that I <= max current mA (I=V/R), V is your source voltage (use 330 ohm)
   
 -Drive a blink-type program to count up, and wrap, in binary on the set of 4 LEDs
 
