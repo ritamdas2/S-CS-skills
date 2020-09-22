@@ -1,4 +1,5 @@
 //Author: Ritam Das
+//Skill 06 CONSOLE IO
 
 #include <stdio.h>
 #include <string.h>
