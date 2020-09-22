@@ -1,3 +1,6 @@
+//Author: Ritam Das
+//Skill 10 RTOS
+
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -379,6 +382,9 @@ static void check_button() {
     vTaskDelay(200);
   }
 
+
+//decimal to binary function adapted from teammate Brian Macomber
+//failed to debug deimcal_to_binary from previous skill for this skill
 static void decimal_to_binary()
 {
   int i;
@@ -478,30 +484,6 @@ static void decimal_to_binary()
       }
     }
   }
-
-
-// char *decimal_to_binary(int n)
-// {
-//    int c, dec, count;
-//    char *pointer;
-
-//    count = 0;
-//    pointer = (char*)malloc(4+1);
-
-//    if (pointer == NULL)
-//       exit(EXIT_FAILURE);
-//    for (c = 3 ; c >= 0 ; c--)
-//    {
-//       dec = n >> c;
-//       if (dec & 1)
-//          *(pointer+count) = 1 + '0';
-//       else
-//          *(pointer+count) = 0 + '0';
-//       count++;
-//    }
-//    *(pointer+count) = '\0';
-//    return pointer;
-// }
 
 void app_main(void)
 {
