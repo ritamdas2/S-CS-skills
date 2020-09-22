@@ -1,3 +1,6 @@
+//Author: Ritam Das
+//Skill 08 Alphanumeric I2C Display
+
 #include <stdio.h>
 #include "driver/i2c.h"
 #include "driver/uart.h"
@@ -26,7 +29,7 @@
 #define ACK_VAL                            0x00 // i2c ack value
 #define NACK_VAL                           0xFF // i2c nack value
 
-static const uint16_t fonttable[] =  {
+static const uint16_t bin[] =  {
 
     0b0000000000000001,
     0b0000000000000010,
@@ -290,10 +293,10 @@ static void test_alpha_display() {
     while (1) {
       char str[5];
       gets(str);
-      displaybuffer[0] = fonttable[(int)str[0]] ;  // T.
-      displaybuffer[1] = fonttable[(int)str[1]];  // D.
-      displaybuffer[2] = fonttable[(int)str[2]];  // C.
-      displaybuffer[3] = fonttable[(int)str[3]];  // L.
+      displaybuffer[0] = bin[(int)str[0]] ;  // T.
+      displaybuffer[1] = bin[(int)str[1]];  // D.
+      displaybuffer[2] = bin[(int)str[2]];  // C.
+      displaybuffer[3] = bin[(int)str[3]];  // L.
 
       // Send commands characters to display over I2C
       i2c_cmd_handle_t cmd4 = i2c_cmd_link_create();
@@ -318,8 +321,6 @@ static void test_alpha_display() {
 
 
 }
-
-
 
 void app_main() {
     i2c_example_master_init();
