@@ -23,7 +23,7 @@ void app_main()
     /* Set the GPIO as a push/pull output */
     gpio_set_direction(BLINK_GPIO, GPIO_MODE_OUTPUT);
 
-    //char str[20];
+    //counter for mode selection
     int num = 0;
     int counter = 0;
     int lednum = 0;
@@ -68,7 +68,6 @@ void app_main()
 
     if (counter%3 == 1) {
       printf("echo: ");
-      // gets()
       if (buf[0] != '\0') {
        printf("%s\n", buf);
       }
@@ -76,7 +75,6 @@ void app_main()
 
     if (counter%3 == 2) {
       printf("Enter an integer:\n");
-      //gets();
       num = atoi(buf);
       printf("Hex: %X\n", num);
     }
