@@ -495,20 +495,6 @@ void app_main(void)
     xTaskCreate(test_alpha_display,"test_alpha_display", 4096, NULL, 5, NULL);
     xTaskCreate(decimal_to_binary,"decimal_to_binary", 4096, NULL, configMAX_PRIORITIES - 5, NULL);
 
-    // int i;
-    // char *binaryNum;
-    // while(1){
-    //   for (i=0;i<=15;i++){
-    //     binaryNum = decimal_to_binary(i);
-    //     gpio_set_level(BLINK_GPIO, binaryNum[0]-'0');
-    //     gpio_set_level(BLINK_GPIO2, binaryNum[1]-'0');
-    //     gpio_set_level(BLINK_GPIO3, binaryNum[2]-'0');
-    //     gpio_set_level(BLINK_GPIO4, binaryNum[3]-'0');
-    //     free(binaryNum);
-    //     vTaskDelay(1000 / portTICK_RATE_MS);
-    //   }
-    // }
-   
     //vTaskDelay(1000 / portTICK_RATE_MS);
 }
 
