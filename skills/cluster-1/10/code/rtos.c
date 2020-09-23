@@ -43,7 +43,7 @@
 #define ACK_VAL                            0x00 // i2c ack value
 #define NACK_VAL                           0xFF // i2c nack value
 
-//static const uint8_t BUTTON_GPIO = 25;
+//static const uint8_t BUTTON_GPIO = 26;
 
 int direction = 0;
 static const uint16_t bin[] =  {
