@@ -10,6 +10,7 @@
 #include "driver/mcpwm.h"
 #include "soc/mcpwm_periph.h"
 
+//experimented with pulsewidth values, dependent on servo
 //You can get these value from the datasheet of servo you use, in general pulse width varies between 1000 to 2000 mocrosecond
 #define SERVO_MIN_PULSEWIDTH 200 //Minimum pulse width in microsecond
 #define SERVO_MAX_PULSEWIDTH 3400 //Maximum pulse width in microsecond
