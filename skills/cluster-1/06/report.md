@@ -8,6 +8,7 @@ Date: 2020-09-22
 ## Summary
 
 The following tasks were completed:
+
     -Toggled the onboard LED based on key input 't'
 
     -Echo input (2 or more chars) form the keyboard to the console
