@@ -29,6 +29,8 @@
 #define ACK_VAL                            0x00 // i2c ack value
 #define NACK_VAL                           0xFF // i2c nack value
 
+
+//bitmap cheat from whizzer provided source
 static const uint16_t bin[] =  {
 
     0b0000000000000001,
