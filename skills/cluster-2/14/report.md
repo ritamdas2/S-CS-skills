@@ -7,7 +7,9 @@ Date: 2020-10-01
 
 ## Summary
 -Wired ultrasonic range sensor to esp32 appropriately
+
 -Converted adc to voltage and voltage to engineering units (mm)
+
 -Displayed results on console sampling every 2s.
 
 ## Sketches and Photos
