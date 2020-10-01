@@ -1,12 +1,14 @@
-#  Skill Name
+#  Skill 14 Ultrasonic
 
-Author: FirstName LastName
+Author: Ritam Das
 
-Date: YYYY-MM-DD
+Date: 2020-10-01
 -----
 
 ## Summary
-
+-Wired ultrasonic range sensor to esp32 appropriately
+-Converted adc to voltage and voltage to engineering units (mm)
+-Displayed results on console sampling every 2s.
 
 ## Sketches and Photos
 
@@ -15,6 +17,8 @@ Date: YYYY-MM-DD
 
 
 ## Supporting Artifacts
+Video Demonstration:
 
+[![](http://img.youtube.com/vi/yW5cEVq8HKs/0.jpg)](http://www.youtube.com/watch?v=yW5cEVq8HKs "")
 
 -----
