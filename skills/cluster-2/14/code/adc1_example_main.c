@@ -1,11 +1,3 @@
-/* ADC1 Example
-
-   This example code is in the Public Domain (or CC0 licensed, at your option.)
-
-   Unless required by applicable law or agreed to in writing, this
-   software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-   CONDITIONS OF ANY KIND, either express or implied.
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include "freertos/FreeRTOS.h"
@@ -424,17 +416,11 @@ void app_main(void)
         adc_reading /= 10;
         //Convert adc_reading to voltage in mV
         uint32_t voltage = esp_adc_cal_raw_to_voltage(adc_reading, adc_chars);
-        // double resistance = (33000.0/((double)voltage/1000)) - 10000.0;
-        // double tempKelvin = -(1 / ((log(10000.0/resistance)/3435.0) - (1/298.0)));
-        // double tempCelsius = (tempKelvin - 273.15);
-        // printf("The temperature is %f\n",tempCelsius);
         printf("Raw: %d\tVoltage: %dmV\n", adc_reading, voltage);
         double distance = (double)voltage*3.9;
         printf("Distance is %fmm\n",distance);
         if(ret == ESP_OK) {
         }
-
-      //.  printf("Raw: %d\tVoltage: %dmV\n", adc_reading, voltage);=]
         vTaskDelay(pdMS_TO_TICKS(2000));
     }
 }
