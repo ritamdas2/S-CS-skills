@@ -10,6 +10,8 @@ Date: 2020-10-01
 
 -Converted adc to voltage and voltage to engineering units (mm)
 
+-Code adapted from ADC example main
+
 -Displayed results on console sampling every 2s.
 
 ## Sketches and Photos
