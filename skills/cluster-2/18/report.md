@@ -1,8 +1,8 @@
-#  Skill Name
+#  Skill 18 Raspberry pi
 
-Author: FirstName LastName
+Author: Ritam Das
 
-Date: YYYY-MM-DD
+Date: 2020-10-08
 -----
 
 ## Summary
