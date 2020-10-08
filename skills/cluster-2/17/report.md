@@ -1,12 +1,14 @@
-#  Skill Name
+#  Skill 17 Canvas.js
 
-Author: FirstName LastName
+Author: Ritam Das
 
-Date: YYYY-MM-DD
+Date: 2020-10-08
 -----
 
 ## Summary
+- Chose 2 examples from canavas.js
 
+- Designed own chart to depict stocks from data.csv
 
 ## Sketches and Photos
 
