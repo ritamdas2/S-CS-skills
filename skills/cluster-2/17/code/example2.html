@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	exportEnabled: true,
+	theme: "light2", // "light1", "light2", "dark1", "dark2"
+	title:{
+		text: "Column Chart with Index Labels"
+	},
+	data: [{
+		type: "column", //change type to bar, line, area, pie, etc
+		//indexLabel: "{y}", //Shows y value on all Data Points
+		indexLabelFontColor: "#5A5757",
+		indexLabelPlacement: "outside",
+		dataPoints: [
+			{ x: 10, y: 94, indexLabel: "Highest"},
+			{ x: 20, y: 59 },
+			{ x: 30, y: 82 },
+			{ x: 40, y: 67 },
+			{ x: 50, y: 32 },
+			{ x: 60, y: 35 },
+			{ x: 70, y: 75 },
+			{ x: 80, y: 35 },
+			{ x: 90, y: 67 },
+			{ x: 100, y: 28, indexLabel: "Lowest" },
+			{ x: 110, y: 55 },
+			{ x: 120, y: 58 },
+			{ x: 130, y: 33 }
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>

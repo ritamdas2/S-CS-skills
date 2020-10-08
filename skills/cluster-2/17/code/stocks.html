@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	title:{
+		text: "Daily High Stock Values"
+	},
+	axisX: {
+		title: "Day"
+	},
+	axisY: {
+		title: "Stock Value",
+		includeZero: false,
+		suffix: "$"
+	},
+	legend:{
+		cursor: "pointer",
+		fontSize: 16,
+		itemclick: toggleDataSeries
+	},
+	toolTip:{
+		shared: true
+	},
+	data: [{
+		name: "AMZN",
+		type: "spline",
+		yValueFormatString: "#0.##",
+		showInLegend: true,
+		dataPoints: [
+			{ x: 1, y: 100 },
+			{ x: 2, y: 200 },
+			{ x: 3, y: 300 },
+			{ x: 4, y: 400 },
+			{ x: 5, y: 500 },
+			{ x: 6, y: 600 },
+			{ x: 7, y: 700 },
+			{ x: 8, y: 800 },
+			{ x: 9, y: 900 },
+			{ x: 10, y: 1100 },
+		]
+	},
+	{
+		name: "FB",
+		type: "spline",
+		yValueFormatString: "#0.##",
+		showInLegend: true,
+		dataPoints: [
+			{ x: 1, y: 100 },
+			{ x: 2, y: 150 },
+			{ x: 3, y: 200 },
+			{ x: 4, y: 250 },
+			{ x: 5, y: 300 },
+			{ x: 6, y: 350 },
+			{ x: 7, y: 400 },
+			{ x: 8, y: 450 },
+			{ x: 9, y: 500 },
+			{ x: 10, y: 550 },
+		]
+	},
+	{
+		name: "GOOG",
+		type: "spline",
+		yValueFormatString: "#0.##",
+		showInLegend: true,
+		dataPoints: [
+			{ x: 1, y: 1000 },
+			{ x: 2, y: 1100 },
+			{ x: 3, y: 1200 },
+			{ x: 4, y: 1300 },
+			{ x: 5, y: 1400 },
+			{ x: 6, y: 1500 },
+			{ x: 7, y: 1600 },
+			{ x: 8, y: 1700 },
+			{ x: 9, y: 1800 },
+			{ x: 10, y: 1900 },
+		]
+	},
+	{
+		name: "MSFT",
+		type: "spline",
+		yValueFormatString: "#0.##",
+		showInLegend: true,
+		dataPoints: [
+			{ x: 1, y: 40 },
+			{ x: 2, y: 80 },
+			{ x: 3, y: 120 },
+			{ x: 4, y: 160 },
+			{ x: 5, y: 200 },
+			{ x: 6, y: 240 },
+			{ x: 7, y: 280 },
+			{ x: 8, y: 320 },
+			{ x: 9, y: 360 },
+			{ x: 10, y: 450 },
+		]
+	}]
+});
+chart.render();
+
+function toggleDataSeries(e){
+	if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+		e.dataSeries.visible = false;
+	}
+	else{
+		e.dataSeries.visible = true;
+	}
+	chart.render();
+}
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html> 
+
+
