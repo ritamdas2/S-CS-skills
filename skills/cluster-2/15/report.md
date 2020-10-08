@@ -1,12 +1,16 @@
-#  Skill Name
+#  Skill 15 IR Rangefinder
 
-Author: FirstName LastName
+Author: Ritam Das
 
-Date: YYYY-MM-DD
+Date: 2020-10-08
 -----
 
 ## Summary
+- Wired rangefinder sensor
 
+- Modified code to read voltage and convert to engineering units
+
+- Sampled output every 2s
 
 ## Sketches and Photos
 
@@ -15,6 +19,8 @@ Date: YYYY-MM-DD
 
 
 ## Supporting Artifacts
+
+Video Demonstration:
 
 
 -----
