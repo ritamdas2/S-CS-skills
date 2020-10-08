@@ -6,7 +6,15 @@ Date: 2020-10-08
 -----
 
 ## Summary
+- Downloaded the latest firmware for the RPi
 
+- Formatted SD card and installed Raspberri Pi OS
+
+- Accessed wifi
+
+- Installed node.js
+
+- Demonstrated that the web server works (e.g., hello world)
 
 ## Sketches and Photos
 
@@ -15,6 +23,10 @@ Date: 2020-10-08
 
 
 ## Supporting Artifacts
+
+Video Demonstration:
+
+[![](http://img.youtube.com/vi/XAuFY7MErpE/0.jpg)](http://www.youtube.com/watch?v=XAuFY7MErpE "")
 
 
 -----
