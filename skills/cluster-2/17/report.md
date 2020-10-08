@@ -11,7 +11,7 @@ Date: 2020-10-08
 - Designed own chart to depict stocks from data.csv
 
 ## Sketches and Photos
-
+![Alt Text](file:///Users/ritamdas/Documents/AllFiles/SeniorBU/esp/esp-idf/my_projects/quest2/skill17/example1.html)
 
 ## Modules, Tools, Source Used Including Attribution
 
