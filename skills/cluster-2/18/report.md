@@ -10,7 +10,7 @@ Date: 2020-10-08
 
 - Formatted SD card and installed Raspberri Pi OS
 
-- Accessed wifi
+- Accessed wifi & SSH into pi
 
 - Installed node.js
 
