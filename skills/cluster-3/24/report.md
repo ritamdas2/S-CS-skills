@@ -6,7 +6,7 @@ Date: 2020-10-23
 -----
 
 ## Summary
-- Used PWM to drive a single LED of your choice
+- Used PWM to drive a single LED 
 
 - Designed and implemented console control to set an intensity level from 0 to 9
 
