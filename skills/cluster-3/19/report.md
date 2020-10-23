@@ -13,6 +13,7 @@ Date: 2020-10-23
 - Configured the pi as a Wireless Access Point
 
 I was able to set up the access point successfully as it showed up under wifi networks. However, there was no internet as webpages failed to load. (Set up on macOS)
+Moved on to next skill
 
 ## Sketches and Photos
 
