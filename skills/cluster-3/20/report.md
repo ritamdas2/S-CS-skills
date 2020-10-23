@@ -6,4 +6,5 @@ To complete this skill, I created a free account on No-IP and created a hostname
 
 #### Viewing the webpage
 
-![pic1](/skills/cluster-3/20/images/running_server_public.png)
+![image](https://user-images.githubusercontent.com/37518854/97059697-23b3e280-155f-11eb-9488-44360d2e399d.png)
+
