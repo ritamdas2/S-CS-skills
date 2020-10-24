@@ -1,9 +1,3 @@
-/*
-  Adapted I2C example code to work with the Adafruit ADXL343 accelerometer. Ported and referenced a lot of code from the Adafruit_ADXL343 driver code.
-  ----> https://www.adafruit.com/product/4097
-
-  Emily Lam, Aug 2019 for BU EC444
-*/
 #include <stdio.h>
 #include <math.h>
 #include "driver/i2c.h"
