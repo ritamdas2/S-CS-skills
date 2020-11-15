@@ -1,12 +1,12 @@
-#  Skill Name
+#  Skill 28 Leader Election
 
-Author: FirstName LastName
+Author: Ritam Das
 
-Date: YYYY-MM-DD
+Date: 2020-11-13
 -----
 
 ## Summary
-
+Please refer to teammate Brian Macomber's private EC444 repo as he handled the leader election team skill.
 
 ## Sketches and Photos
 
