@@ -24,14 +24,14 @@ while(count < 10)
 	if (state == S0)
 	{
     printf("Game Started!\n");
-		next_state == S1();
+		next_state == S1;
 	}
 	else if (state == S1)
 	{
     printf("The mole is in hole 1! Press 1 to whack it.\n");
 		if (atoi(c[0]) == 1)
 		{
-            score = score + 10;
+            		score = score + 10;
 			next_state == S1;
 		}
     else
@@ -44,7 +44,7 @@ while(count < 10)
     printf("The mole is in hole 2! Press 2 to whack it.\n");
 		if (atoi(c[0]) == 2)
 		{
-            score = score + 10;
+            		score = score + 10;
 			next_state == S1;
 		}
     else
@@ -57,7 +57,7 @@ while(count < 10)
     printf("The mole is in hole 3! Press 3 to whack it.\n");
 		if (atoi(c[0]) == 3)
 		{
-            score = score + 10;
+            		score = score + 10;
 			next_state == S1;
 		}
     else
@@ -70,7 +70,7 @@ while(count < 10)
     printf("The mole is in hole 4! Press 4 to whack it.\n");
 		if (atoi(c[0]) == 4)
 		{
-            score = score + 10;
+            		score = score + 10;
 			next_state == S1;
 		}
     else
@@ -83,7 +83,7 @@ while(count < 10)
     printf("The mole is in hole 5! Press 5 to whack it.\n");
 		if (atoi(c[0]) == 5)
 		{
-            score = score + 10;
+            		score = score + 10;
 			next_state == S1;
 		}
     else
@@ -96,7 +96,7 @@ while(count < 10)
     printf("The mole is in hole 6! Press 1 to whack it.\n");
 		if (atoi(c[0]) == 6)
 		{
-            score = score + 10;
+            		score = score + 10;
 			next_state == S1;
 		}
     else
@@ -109,7 +109,7 @@ while(count < 10)
     printf("The mole is in hole 7! Press 7 to whack it.\n");
 		if (atoi(c[0]) == 7)
 		{
-            score = score + 10;
+           		score = score + 10;
 			next_state == S1;
 		}
     else
@@ -122,7 +122,7 @@ while(count < 10)
     printf("The mole is in hole 8! Press 8 to whack it.\n");
 		if (atoi(c[0]) == 8)
 		{
-            score = score + 10;
+            		score = score + 10;
 			next_state == S1;
 		}
     else
@@ -135,7 +135,7 @@ while(count < 10)
     printf("The mole is in hole 9! Press 9 to whack it.\n");
 		if (atoi(c[0]) == 9)
 		{
-            score = score + 10;
+            		score = score + 10;
 			next_state == S2;
 		}
     else
