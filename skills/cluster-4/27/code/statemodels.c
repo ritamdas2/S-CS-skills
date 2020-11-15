@@ -8,11 +8,11 @@ int main(int argc, char **argv)
        S0,
        S1,
        S2
-       } state_e;
+       } states;
 
-state_e state = S0;	// Initial State
-state_e next_state;
-event_e event;
+states state = S0;	// Initial State
+states next_state;
+event event;
 int count = 0;
 char input[2];
 int score = 0;
