@@ -18,6 +18,7 @@ Date: 2020-11-13
 
 ## Sketches and Photos
 Video Demonstration:
+
 [![](http://img.youtube.com/vi/-9ljytvbf2Q/0.jpg)](http://www.youtube.com/watch?v=-9ljytvbf2Q "")
 
 ## Modules, Tools, Source Used Including Attribution
